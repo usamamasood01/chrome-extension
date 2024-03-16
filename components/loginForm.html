@@ -1,0 +1,41 @@
+<div class="loading d-none style-2"><div class="loading-wheel"></div></div>
+<div class="form p-5">
+  <h1 class="text-center pb-3">Form Autofill</h1>
+  <form id="siginForm">
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input
+        required
+        placeholder="Email"
+        type="email"
+        id="email"
+        class="form-control"
+      />
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <input
+        required
+        placeholder="Password"
+        type="password"
+        id="password"
+        class="form-control"
+      />
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" id="signin" class="btn btn-success btn-block mb-4">
+      Sign in
+    </button>
+
+    <div id="loginerr" class="text-center"></div>
+
+    <div class="text-center">
+      <p class="mb-0">
+        Not a member?
+        <a class="text-success" href="#" id="register">Register</a>
+      </p>
+    </div>
+  </form>
+</div>

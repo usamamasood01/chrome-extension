@@ -1,0 +1,214 @@
+<div class="loading d-none style-2"><div class="loading-wheel"></div></div>
+<div class="form p-3">
+  <div class="w-100">
+    <span class="back"
+      ><img class="previousIcon" alt="back" src="../assets/previous.png"
+    /></span>
+  </div>
+  <h1 class="text-center pb-3">Application Form</h1>
+  <form id="applicationForm">
+    <div class="form-outline mb-4">
+      <input
+        placeholder="Applicant Nick Name"
+        required
+        name="applicant_nick_name"
+        type="text"
+        class="form-control"
+      />
+    </div>
+    <hr />
+    <label class="form-label">Mobile Number</label>
+    <div class="form-outline mb-4">
+      <input name="phone_number" type="number" class="form-control" />
+    </div>
+    <label class="form-label">Social Security / ITIN</label>
+    <div class="form-outline mb-4">
+      <input
+        name="social_security_number_token"
+        type="number"
+        class="form-control"
+      />
+    </div>
+    <label class="form-label">Confirm Social Security / ITIN</label>
+    <div class="form-outline mb-4">
+      <input
+        name="confirm_social_security_number_token"
+        type="number"
+        class="form-control"
+      />
+    </div>
+    <label class="form-label">First Name</label>
+    <div class="form-outline mb-4">
+      <input name="first_name" type="text" class="form-control" />
+    </div>
+    <label class="form-label">Last Name</label>
+    <div class="form-outline mb-4">
+      <input name="last_name" type="text" class="form-control" />
+    </div>
+    <label class="form-label">Email Address</label>
+    <div class="form-outline mb-4">
+      <input required="" name="email" type="email" class="form-control" />
+    </div>
+    <label class="form-label">Date of Birth</label>
+    <div class="form-outline mb-4">
+      <input name="dob" type="date" class="form-control" />
+    </div>
+    <label class="form-label">Street Address</label>
+    <div class="form-outline mb-4">
+      <input name="street_address" type="text" class="form-control" />
+    </div>
+    <label class="form-label">Apartment Number</label>
+    <div class="form-outline mb-4">
+      <input name="apartment_number" type="text" class="form-control" />
+    </div>
+    <label class="form-label">City</label>
+    <div class="form-outline mb-4">
+      <input name="city" type="text" class="form-control" />
+    </div>
+    <label class="form-label">State</label>
+    <div class="form-outline mb-4">
+      <select name="state" class="form-select">
+        <option value="Alabama">Alabama</option>
+        <option value="Alaska">Alaska</option>
+      </select>
+    </div>
+    <label class="form-label">Zip Code</label>
+    <div class="form-outline mb-4">
+      <input name="zipcode" type="number" class="form-control" />
+    </div>
+    <label class="form-label">Identification</label>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="id_type"
+        id="DriverLicenseidentification"
+        value="DriverLicenseidentification"
+      />
+      <label class="form-check-label" for="DriverLicenseidentification"
+        >Driver License</label
+      >
+    </div>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="id_type"
+        id="NonDriverStateIDidentification"
+        value="NonDriverStateIDidentification"
+      />
+      <label class="form-check-label" for="NonDriverStateIDidentification"
+        >Non-Driver / State ID</label
+      >
+    </div>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="id_type"
+        id="USMilitaryidentification"
+        value="USMilitaryidentification"
+      />
+      <label class="form-check-label" for="USMilitaryidentification"
+        >US Military</label
+      >
+    </div>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="id_type"
+        id="USPassportidentification"
+        value="USPassportidentification"
+      />
+      <label class="form-check-label" for="USPassportidentification"
+        >US Passport</label
+      >
+    </div>
+    <label class="form-label">ID Number</label>
+    <div class="form-outline mb-4">
+      <input name="id_number" type="number" class="form-control" />
+    </div>
+    <label class="form-label">Driver License State</label>
+    <div class="form-outline mb-4">
+      <select name="id_state" class="form-select">
+        <option value="Alabama">Alabama</option>
+        <option value="Alaska">Alaska</option>
+      </select>
+    </div>
+    <label class="form-label">Monthly Income</label>
+    <div class="form-outline mb-4">
+      <input name="monthly_income" type="number" class="form-control" />
+    </div>
+    <label class="form-label">How often do you receive income?</label>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="income_frequency"
+        id="Weeklyincomefrequency"
+        value="Weeklyincomefrequency"
+      />
+      <label class="form-check-label" for="Weeklyincomefrequency">Weekly</label>
+    </div>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="income_frequency"
+        id="EveryOtherWeekincomefrequency"
+        value="EveryOtherWeekincomefrequency"
+      />
+      <label class="form-check-label" for="EveryOtherWeekincomefrequency"
+        >Every Other Week</label
+      >
+    </div>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="income_frequency"
+        id="TwiceaMonthincomefrequency"
+        value="TwiceaMonthincomefrequency"
+      />
+      <label class="form-check-label" for="TwiceaMonthincomefrequency"
+        >Twice a Month</label
+      >
+    </div>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="income_frequency"
+        id="Monthlyincomefrequency"
+        value="Monthlyincomefrequency"
+      />
+      <label class="form-check-label" for="Monthlyincomefrequency"
+        >Monthly</label
+      >
+    </div>
+    <label class="form-label">Last Income Date</label>
+    <div class="form-outline mb-4">
+      <input name="last_pay_date" type="date" class="form-control" />
+    </div>
+    <label class="form-label">Next Income Date</label>
+    <div class="form-outline mb-4">
+      <input name="next_pay_date" type="date" class="form-control" />
+    </div>
+    <label class="form-label">Routing Number</label>
+    <div class="form-outline mb-4">
+      <input name="routing_number" type="number" class="form-control" />
+    </div>
+    <label class="form-label">Account Number</label>
+    <div class="form-outline mb-4">
+      <input name="account_number" type="number" class="form-control" />
+    </div>
+    <button
+      type="submit"
+      id="submitApplicationForm"
+      class="btn btn-success btn-block mb-4"
+    >
+      Submit
+    </button>
+  </form>
+</div>

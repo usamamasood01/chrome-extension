@@ -1,0 +1,28 @@
+{
+  "name": "Form Automation",
+  "description": "An extension for auto filling forms on various websites",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "declarativeContent",
+    "activeTab",
+    "storage",
+    "tabs",
+    "contextMenus",
+    "notifications"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["scripts/jquery-3.4.1.min.js", "scripts/content.js"],
+      "css": [],
+      "run_at": "document_end"
+    }
+  ]
+}
